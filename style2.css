@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgba(119, 116, 116, 0.795),white );
+}
+.dropdown{
+    background-color: rgb(0, 0, 0,0.2);
+    height: 45px;
+    padding-left: 830px;
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.dropdown ul li{
+    float: left;
+    width: 100px;
+    height: 45px;
+    opacity: 9;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+.dropdown ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.dropdown ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block  ;
+    background-color: rgb(0, 0, 0,0.2);
+}
+form{
+    border: 1px solid black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0,0.05);
+    box-shadow: 5px 8px rgb(0, 0, 0,0.2);
+}
+.signup{
+    text-align: center;
+}
+.signup h2{
+    font-size: 35px;
+}
+input[type=text]{
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+input[type=email]{
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+input[type=phonenumber]{
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+input[type=password]{
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+input[type=confirmpassword]{
+    padding: 8px 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+}
+form h4{
+    padding-left: 35px;
+    font-size: 18px;
+}
+form a{
+    padding-left: 65px;
+}
+button{
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+    margin-left: 150px;
+}
+button:hover{
+    background-color: rgb(0, 132, 255);
+    text-decoration: underline;
+}
+button:active{
+    background-color: aqua;
+}
+button:visited{
+    background-color: rgb(0, 132, 255);
+}
+a:link{
+    color: blue;
+    text-decoration-line: none;
+}
+a:hover{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+a:active{
+    color: yellow;
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+a:visited{
+    color: purple;
+}

@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,rgba(119, 116, 116, 0.795),white 70%);
+}
+.dropdown{
+    background-color: rgb(0, 0, 0,0.2);
+    height: 45px;
+    padding-left: 860px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    float: left;
+    width: 100px;
+    height: 45px;
+    opacity: 9;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block  ;
+    background-color: rgb(0, 0, 0,0.2);
+}
+h2{
+    padding-left: 25px;
+    padding-top: 50px;
+    font-size: 70px;
+}
+button{
+    padding: 5px 15px 5px 15px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: rgb(0, 132, 255);
+    margin-left: 30px;
+}
+button:hover{
+    background-color: rgb(0, 132, 255);
+    text-decoration: underline;
+}
+button:active{
+    background-color: aqua;
+}
+button:visited{
+    background-color: rgb(0, 132, 255);
+}
+a:link{
+    color: blue;
+    text-decoration-line: none;
+}
+a:hover{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+}
+a:active{
+    color: yellow;
+    text-decoration-line: underline;
+    text-decoration-color: yellow;
+}
+a:visited{
+    color: purple;
+}
